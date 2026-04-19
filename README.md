@@ -2,6 +2,7 @@ Customer Retention & Churn Analysis
 Project Overview
 
 This project analyzes customer churn behavior using a telecom subscription dataset to identify key drivers of customer attrition and uncover opportunities to improve retention.
+
 The analysis focuses on understanding who is churning, why they are leaving, and what actions a business can take to reduce churn and improve customer lifetime value.
 
 Objective
@@ -9,14 +10,17 @@ Identify customer churn patterns
 Analyze key factors influencing churn
 Understand customer lifetime behavior
 Provide actionable recommendations to improve retention
-Tools 
+Tools & Technologies
 Python
-Pandas (data cleaning & analysis)
-Matplotlib & Seaborn (data visualization)
+Pandas (data cleaning and analysis)
+Matplotlib and Seaborn (data visualization)
 Jupyter Notebook
 Dataset
+
 Dataset: Telco Customer Churn Dataset
-Contains customer information such as:
+
+The dataset includes:
+
 Demographics (gender, senior citizen, dependents)
 Subscription details (contract type, services)
 Financial data (monthly charges, total charges)
@@ -27,36 +31,45 @@ Converted TotalCharges to numeric format
 Handled missing values by removing incomplete records
 Verified dataset structure and data types
 Key Analysis & Insights
-Overall Churn Rate:
-Approximately 26% of customers have churned
-Indicates a significant retention challenge
+Overall Churn Rate
+
+Approximately 26% of customers have churned.
+This indicates a significant retention challenge.
 
 Contract Type Impact
-Month-to-month customers: highest churn (~43%)
-Long-term contracts: significantly lower churn
-This indicates Customers without long-term commitment are more likely to leave
+Month-to-month customers have the highest churn (~43%)
+Long-term contracts show significantly lower churn
+
+Customers without long-term commitment are more likely to leave.
 
 Customer Tenure (Lifetime)
-Customers with low tenure churn the most
-Early-stage customers are at highest risk
+
+Customers with low tenure churn the most.
+Early-stage customers are at the highest risk.
 
 Monthly Charges Impact
-Higher monthly charges are associated with higher churn
-Suggests price sensitivity or perceived low value
+
+Higher monthly charges are associated with higher churn.
+This suggests price sensitivity or perceived low value.
 
 Service Type (Internet)
-Fiber optic customers show higher churn
-Indicates possible dissatisfaction despite premium service
+
+Fiber optic customers show higher churn rates.
+This may indicate dissatisfaction despite being a premium service.
 
 Payment Method Behavior
-Customers using electronic check have higher churn
-This may indicate lower engagement or payment friction
+
+Customers using electronic check have higher churn.
+This may indicate lower engagement or friction in the payment process.
 
 Churn Risk Segmentation
-High churn risk group:
+
+High-risk customers typically have:
+
 Low tenure
 High monthly charges
-And these customers require immediate attention
+
+These customers require immediate attention.
 
 Deliverables
 Jupyter Notebook with full analysis (TASK2.ipynb)
